@@ -1,0 +1,41 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\olley\\Documents\\Development\\image-object-detector\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\image-object-detector.bundle.scp.css",
+      "PackagePath": "staticwebassets\\image-object-detector.6en3s2hvhq.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\olley\\Documents\\Development\\image-object-detector\\wwwroot\\app.css",
+      "PackagePath": "staticwebassets\\app.css"
+    },
+    {
+      "Id": "C:\\Users\\olley\\Documents\\Development\\image-object-detector\\wwwroot\\images\\defaultImg.png",
+      "PackagePath": "staticwebassets\\images\\defaultImg.png"
+    },
+    {
+      "Id": "C:\\Users\\olley\\Documents\\Development\\image-object-detector\\wwwroot\\images\\image.png",
+      "PackagePath": "staticwebassets\\images\\image.png"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.image-object-detector.props",
+      "PackagePath": "build\\image-object-detector.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.image-object-detector.props",
+      "PackagePath": "buildMultiTargeting\\image-object-detector.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.image-object-detector.props",
+      "PackagePath": "buildTransitive\\image-object-detector.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.image-object-detector.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.image-object-detector.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

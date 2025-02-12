@@ -1,0 +1,537 @@
+{
+  "Version": 1,
+  "Hash": "wxtOu6WUtueFgY851SznDz8YjqExH4h5eadEHkpsq+s=",
+  "Source": "image-object-detector",
+  "BasePath": "_content/image-object-detector",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "image-object-detector\\wwwroot",
+      "Source": "image-object-detector",
+      "ContentRoot": "C:\\Users\\olley\\Documents\\Development\\image-object-detector\\wwwroot\\",
+      "BasePath": "_content/image-object-detector",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\olley\\Documents\\Development\\image-object-detector\\obj\\Debug\\net8.0\\scopedcss\\bundle\\image-object-detector.styles.css",
+      "SourceId": "image-object-detector",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\olley\\Documents\\Development\\image-object-detector\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
+      "BasePath": "_content/image-object-detector",
+      "RelativePath": "image-object-detector#[.{fingerprint}]?.styles.css",
+      "AssetKind": "All",
+      "AssetMode": "CurrentProject",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "ScopedCss",
+      "AssetTraitValue": "ApplicationBundle",
+      "Fingerprint": "6en3s2hvhq",
+      "Integrity": "Lk3Iyp3AuW103pIqDqoH4fX7zyiF93cqoZs6TlXs9UA=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\olley\\Documents\\Development\\image-object-detector\\obj\\Debug\\net8.0\\scopedcss\\bundle\\image-object-detector.styles.css"
+    },
+    {
+      "Identity": "C:\\Users\\olley\\Documents\\Development\\image-object-detector\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\image-object-detector.bundle.scp.css",
+      "SourceId": "image-object-detector",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\olley\\Documents\\Development\\image-object-detector\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
+      "BasePath": "_content/image-object-detector",
+      "RelativePath": "image-object-detector#[.{fingerprint}]!.bundle.scp.css",
+      "AssetKind": "All",
+      "AssetMode": "Reference",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "ScopedCss",
+      "AssetTraitValue": "ProjectBundle",
+      "Fingerprint": "6en3s2hvhq",
+      "Integrity": "Lk3Iyp3AuW103pIqDqoH4fX7zyiF93cqoZs6TlXs9UA=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\olley\\Documents\\Development\\image-object-detector\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\image-object-detector.bundle.scp.css"
+    },
+    {
+      "Identity": "C:\\Users\\olley\\Documents\\Development\\image-object-detector\\wwwroot\\app.css",
+      "SourceId": "image-object-detector",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\olley\\Documents\\Development\\image-object-detector\\wwwroot\\",
+      "BasePath": "_content/image-object-detector",
+      "RelativePath": "app#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "9tsjre4pz5",
+      "Integrity": "Y3QRrYDjsQ+Bj4noKNSCcSRxgRtgAn0QL1o5m5BNepk=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\app.css"
+    },
+    {
+      "Identity": "C:\\Users\\olley\\Documents\\Development\\image-object-detector\\wwwroot\\images\\defaultImg.png",
+      "SourceId": "image-object-detector",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\olley\\Documents\\Development\\image-object-detector\\wwwroot\\",
+      "BasePath": "_content/image-object-detector",
+      "RelativePath": "images/defaultImg#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "bfjaav6zgf",
+      "Integrity": "KTlFQCYgHu30CXqr7a+0PUzkrGjd3HCTW3UE9wdjqJM=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\defaultImg.png"
+    },
+    {
+      "Identity": "C:\\Users\\olley\\Documents\\Development\\image-object-detector\\wwwroot\\images\\image.png",
+      "SourceId": "image-object-detector",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\olley\\Documents\\Development\\image-object-detector\\wwwroot\\",
+      "BasePath": "_content/image-object-detector",
+      "RelativePath": "images/image#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "glx9grytzq",
+      "Integrity": "VM54G56bnZcRdsdKtUYr4qmc00Dl/vMpsRwj/i8LoRU=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\image.png"
+    }
+  ],
+  "Endpoints": [
+    {
+      "Route": "app.9tsjre4pz5.css",
+      "AssetFile": "C:\\Users\\olley\\Documents\\Development\\image-object-detector\\wwwroot\\app.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2154"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Y3QRrYDjsQ+Bj4noKNSCcSRxgRtgAn0QL1o5m5BNepk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 10 Feb 2025 17:10:52 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "9tsjre4pz5"
+        },
+        {
+          "Name": "label",
+          "Value": "app.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Y3QRrYDjsQ+Bj4noKNSCcSRxgRtgAn0QL1o5m5BNepk="
+        }
+      ]
+    },
+    {
+      "Route": "app.css",
+      "AssetFile": "C:\\Users\\olley\\Documents\\Development\\image-object-detector\\wwwroot\\app.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2154"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Y3QRrYDjsQ+Bj4noKNSCcSRxgRtgAn0QL1o5m5BNepk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 10 Feb 2025 17:10:52 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Y3QRrYDjsQ+Bj4noKNSCcSRxgRtgAn0QL1o5m5BNepk="
+        }
+      ]
+    },
+    {
+      "Route": "image-object-detector.6en3s2hvhq.bundle.scp.css",
+      "AssetFile": "C:\\Users\\olley\\Documents\\Development\\image-object-detector\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\image-object-detector.bundle.scp.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "512"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Lk3Iyp3AuW103pIqDqoH4fX7zyiF93cqoZs6TlXs9UA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 10 Feb 2025 17:12:56 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "6en3s2hvhq"
+        },
+        {
+          "Name": "label",
+          "Value": "image-object-detector.bundle.scp.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Lk3Iyp3AuW103pIqDqoH4fX7zyiF93cqoZs6TlXs9UA="
+        }
+      ]
+    },
+    {
+      "Route": "image-object-detector.6en3s2hvhq.styles.css",
+      "AssetFile": "C:\\Users\\olley\\Documents\\Development\\image-object-detector\\obj\\Debug\\net8.0\\scopedcss\\bundle\\image-object-detector.styles.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "512"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Lk3Iyp3AuW103pIqDqoH4fX7zyiF93cqoZs6TlXs9UA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 10 Feb 2025 17:12:56 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "6en3s2hvhq"
+        },
+        {
+          "Name": "label",
+          "Value": "image-object-detector.styles.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Lk3Iyp3AuW103pIqDqoH4fX7zyiF93cqoZs6TlXs9UA="
+        }
+      ]
+    },
+    {
+      "Route": "image-object-detector.bundle.scp.css",
+      "AssetFile": "C:\\Users\\olley\\Documents\\Development\\image-object-detector\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\image-object-detector.bundle.scp.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "512"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Lk3Iyp3AuW103pIqDqoH4fX7zyiF93cqoZs6TlXs9UA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 10 Feb 2025 17:12:56 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Lk3Iyp3AuW103pIqDqoH4fX7zyiF93cqoZs6TlXs9UA="
+        }
+      ]
+    },
+    {
+      "Route": "image-object-detector.styles.css",
+      "AssetFile": "C:\\Users\\olley\\Documents\\Development\\image-object-detector\\obj\\Debug\\net8.0\\scopedcss\\bundle\\image-object-detector.styles.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "512"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Lk3Iyp3AuW103pIqDqoH4fX7zyiF93cqoZs6TlXs9UA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 10 Feb 2025 17:12:56 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Lk3Iyp3AuW103pIqDqoH4fX7zyiF93cqoZs6TlXs9UA="
+        }
+      ]
+    },
+    {
+      "Route": "images/defaultImg.bfjaav6zgf.png",
+      "AssetFile": "C:\\Users\\olley\\Documents\\Development\\image-object-detector\\wwwroot\\images\\defaultImg.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "6077"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"KTlFQCYgHu30CXqr7a+0PUzkrGjd3HCTW3UE9wdjqJM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 10 Feb 2025 17:25:41 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "bfjaav6zgf"
+        },
+        {
+          "Name": "label",
+          "Value": "images/defaultImg.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-KTlFQCYgHu30CXqr7a+0PUzkrGjd3HCTW3UE9wdjqJM="
+        }
+      ]
+    },
+    {
+      "Route": "images/defaultImg.png",
+      "AssetFile": "C:\\Users\\olley\\Documents\\Development\\image-object-detector\\wwwroot\\images\\defaultImg.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "6077"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"KTlFQCYgHu30CXqr7a+0PUzkrGjd3HCTW3UE9wdjqJM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 10 Feb 2025 17:25:41 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-KTlFQCYgHu30CXqr7a+0PUzkrGjd3HCTW3UE9wdjqJM="
+        }
+      ]
+    },
+    {
+      "Route": "images/image.glx9grytzq.png",
+      "AssetFile": "C:\\Users\\olley\\Documents\\Development\\image-object-detector\\wwwroot\\images\\image.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1374721"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"VM54G56bnZcRdsdKtUYr4qmc00Dl/vMpsRwj/i8LoRU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 10 Feb 2025 19:35:23 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "glx9grytzq"
+        },
+        {
+          "Name": "label",
+          "Value": "images/image.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-VM54G56bnZcRdsdKtUYr4qmc00Dl/vMpsRwj/i8LoRU="
+        }
+      ]
+    },
+    {
+      "Route": "images/image.png",
+      "AssetFile": "C:\\Users\\olley\\Documents\\Development\\image-object-detector\\wwwroot\\images\\image.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1374721"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"VM54G56bnZcRdsdKtUYr4qmc00Dl/vMpsRwj/i8LoRU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 10 Feb 2025 19:35:23 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-VM54G56bnZcRdsdKtUYr4qmc00Dl/vMpsRwj/i8LoRU="
+        }
+      ]
+    }
+  ]
+}

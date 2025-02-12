@@ -1,0 +1,3 @@
+wwwroot\app.css
+wwwroot\images\defaultImg.png
+wwwroot\images\image.png

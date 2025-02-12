@@ -1,0 +1,102 @@
+﻿@page "/"
+@rendermode InteractiveServer
+@using System
+@using System.IO
+@using Azure
+@using Microsoft.AspNetCore.Hosting
+@using Azure.AI.Vision.ImageAnalysis
+@inject IWebHostEnvironment Environment
+
+<PageTitle>What's in the image!</PageTitle>
+
+<h1>What's in the image!</h1>
+
+<p>Upload an image below, then press start to see what objects exist.</p>
+
+<InputFile OnChange="UploadImage"></InputFile>
+
+<button @onclick="ScanForObjects">Start</button>
+<br />
+
+@if(_imagePath != null)
+{
+	<img src="@_imagePath" width="400" height="360" />
+	<br />
+}
+
+<ul>
+	@foreach(var str in _detected)
+	{
+		<li>@str</li>
+	}
+</ul>
+
+@code{
+
+	private const int _maxFiles = 1;
+	private const int _maxFileSize = 1920 * 1080 * 24;
+	private List<string> _detected = new();
+	private string? _imagePath;
+	private string? _filePath;
+	private IBrowserFile? _uploadedFile;
+
+	public void ScanForObjects()
+	{
+		string? endpoint = System.Environment.GetEnvironmentVariable("VISION_ENDPOINT");
+		string? key = System.Environment.GetEnvironmentVariable("VISION_KEY");
+
+		if (string.IsNullOrEmpty(endpoint) || string.IsNullOrEmpty(key)) return;
+		if (string.IsNullOrEmpty(_filePath)) return;
+
+		try
+		{
+			ImageAnalysisClient client = new(
+					new Uri(endpoint),
+					new AzureKeyCredential(key)
+					);
+
+			using FileStream stream = new(_filePath, FileMode.Open);
+			BinaryData imageData = BinaryData.FromStream(stream);
+
+			VisualFeatures features = VisualFeatures.Objects;
+
+			ImageAnalysisResult result = client.Analyze(imageData, features);
+
+			foreach (var detectedObject in result.Objects.Values)
+			{
+				_detected.Add(detectedObject.Tags.First().Name);
+			}
+		}
+
+		catch(Exception e)
+		{
+			Console.WriteLine(e.Message);
+		}
+	}
+
+	public async Task UploadImage(InputFileChangeEventArgs e)
+	{
+		foreach (var file in e.GetMultipleFiles(_maxFiles))
+		{
+			try
+			{
+				var fileName = "image.png";
+				var path = Path.Combine(
+					Environment.WebRootPath, 
+					"images", 
+					fileName);
+
+				await using FileStream fileStream = new(path, FileMode.Create);
+				await file.OpenReadStream(_maxFileSize).CopyToAsync(fileStream);
+
+				_uploadedFile = file;
+				_filePath = path;
+				_imagePath = Path.Combine("images",fileName);
+			}
+			catch(Exception ex)
+			{
+				Console.WriteLine(ex.Message);
+			}
+		}
+	}
+}
